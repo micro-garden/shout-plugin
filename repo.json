@@ -1,6 +1,6 @@
 [{
 	"Name": "shout",
-	"Description": "Run the current line as a shell command and insert the output below in micro editor.",
+	"Description": "Run the current line as a shell command and insert the output below.",
 	"Author": "Aki Kareha",
 	"Tags": ["shell", "command", "command-line", "terminal", "runner"],
 	"Website": "https://github.com/akikareha/micro-shout-plugin",

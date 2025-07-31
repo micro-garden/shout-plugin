@@ -1,7 +1,8 @@
 # Shell Out Plugin for Micro
 
-Run the current line as a shell command and insert the output below in
-[micro](https://micro-editor.github.io/) editor.
+**Shell Out** is a plugin for the
+[micro](https://micro-editor.github.io/) text editor that runs the current
+line as a shell command and insert the output below.
 
 ## Usage
 
