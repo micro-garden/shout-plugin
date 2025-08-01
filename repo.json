@@ -4,6 +4,7 @@
 	"Author": "Aki Kareha",
 	"Tags": ["shell", "command", "command-line", "terminal", "runner"],
 	"Website": "https://github.com/akikareha/micro-shout-plugin",
+	"License": "MIT",
 	"Versions": [
 		{
 			"Version": "0.0.0",
