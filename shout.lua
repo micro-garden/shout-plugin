@@ -1,11 +1,11 @@
-VERSION = "0.0.0"
+VERSION = "0.0.1"
 
 local micro = import("micro")
 local config = import("micro/config")
 local shell = import("micro/shell")
 local buffer = import("micro/buffer")
 
-function runCurrentLine(bp)
+function ShOutCmd(bp)
 	local lineNum = bp.Cursor.Y
 	local line = bp.Buf:Line(lineNum)
 
@@ -43,7 +43,7 @@ function runCurrentLine(bp)
 end
 
 function init()
-	config.MakeCommand("shout", runCurrentLine, config.NoComplete)
-	config.TryBindKey("Ctrl-Alt-b", "lua:shout.runCurrentLine", false)
+	config.MakeCommand("shout", ShOutCmd, config.NoComplete)
+	config.TryBindKey("Ctrl-Alt-b", "lua:shout.ShOutCmd", false)
 	config.AddRuntimeFile("shout", config.RTHelp, "help/shout.md")
 end
