@@ -1,11 +1,11 @@
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 
 local micro = import("micro")
 local config = import("micro/config")
 local shell = import("micro/shell")
 local buffer = import("micro/buffer")
 
-function ShOutCmd(bp)
+function ShOut(bp)
 	local lineNum = bp.Cursor.Y
 	local line = bp.Buf:Line(lineNum)
 
@@ -43,7 +43,7 @@ function ShOutCmd(bp)
 end
 
 function init()
-	config.MakeCommand("shout", ShOutCmd, config.NoComplete)
-	config.TryBindKey("Ctrl-Alt-b", "lua:shout.ShOutCmd", false)
+	config.MakeCommand("shout", ShOut, config.NoComplete)
+	config.TryBindKey("Ctrl-Alt-b", "lua:shout.ShOut", false)
 	config.AddRuntimeFile("shout", config.RTHelp, "help/shout.md")
 end
