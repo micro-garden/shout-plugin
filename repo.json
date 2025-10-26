@@ -3,26 +3,26 @@
 	"Description": "Run the current line as a shell command and insert the output below.",
 	"Author": "Aki Kareha",
 	"Tags": ["shell", "command", "command-line", "terminal", "runner"],
-	"Website": "https://github.com/akikareha/micro-shout-plugin",
+	"Website": "https://github.com/micro-garden/shout-plugin",
 	"License": "MIT",
 	"Versions": [
 		{
 			"Version": "0.0.2",
-			"Url": "https://github.com/akikareha/micro-shout-plugin/archive/v0.0.2.zip",
+			"Url": "https://github.com/micro-garden/shout-plugin/archive/v0.0.2.zip",
 			"Require": {
 				"micro": ">=2.0.0"
 			}
 		},
 		{
 			"Version": "0.0.1",
-			"Url": "https://github.com/akikareha/micro-shout-plugin/archive/v0.0.1.zip",
+			"Url": "https://github.com/micro-garden/shout-plugin/archive/v0.0.1.zip",
 			"Require": {
 				"micro": ">=2.0.0"
 			}
 		},
 		{
 			"Version": "0.0.0",
-			"Url": "https://github.com/akikareha/micro-shout-plugin/archive/v0.0.0.zip",
+			"Url": "https://github.com/micro-garden/shout-plugin/archive/v0.0.0.zip",
 			"Require": {
 				"micro": ">=2.0.0"
 			}
